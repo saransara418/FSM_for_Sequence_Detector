@@ -141,6 +141,8 @@ endmodule
 ```
 // output Waveform
 
+<img width="1912" height="928" alt="image" src="https://github.com/user-attachments/assets/b7c0fa95-e34c-4665-81a5-6c77dda8f6f5" />
+
 # Moore 1011
 // write verilog code for ROM using $random
 ```
@@ -220,3 +222,15 @@ begin
 
     #50 $stop;
 end
+
+endmodule
+
+```
+// output Waveform
+
+<img width="1916" height="985" alt="image" src="https://github.com/user-attachments/assets/ad24d0c8-1a3b-4cdc-8ec4-e657546e8b41" />
+
+
+# Conclusion 
+The Mealy and Moore state machine for sequence 1011 was designed and successfully simulated using Verilog HDL. The testbench verified both the write and read functionalities by simulating the sequence operations and observing the output waveforms.
+
